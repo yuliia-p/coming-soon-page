@@ -10,9 +10,6 @@ body {
 
 .container {
   width: 100%;
-  background-image: url("../images/bg-pattern-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
 }
 
 .text-content {
@@ -43,19 +40,41 @@ div.logo img {
 }
 
 input {
-  width: 80%;
+  width: 100%;
   text-align: start;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: rgb(206, 151, 151);
+  border-style: solid;
+  border-width: 1px;
+}
+
+::placeholder {
+  color: rgb(206, 151, 151);
 }
 
 button {
-  padding: 0.5rem 1rem;
-  background-image: url("../images/icon-arrow.svg");
-  background-repeat: no-repeat;
   border: none;
+  background:
+    url("../images/icon-arrow.svg"),
+    linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
+  top: -48px;
+  left: 140px;
+  padding: 1.5rem 2rem;
+  border-radius: 25px;
 }
 
 @media screen and (min-width: 756px) {
   .container {
     margin: auto;
+
+    /* background-image: url("../images/bg-pattern-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: auto; */
   }
 }
