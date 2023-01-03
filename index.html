@@ -37,9 +37,14 @@
         </div>
         <p style="line-height: 1.8rem;">Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <form action="submit">
-          <input type="email" placeholder="Email Address">
-          <button type="submit"></button>
+        <form id="form" action="#">
+          <p class="text-error"></p>
+          <label for="email"></label>
+          <input id="email" type="email" placeholder="Email Address">
+          <img src="./images/icon-error.svg" class="icon-error" alt="icon-error" />
+          <button type="submit" id="submit">
+            <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+          </button>
         </form>
       </div>
     </div>
@@ -50,5 +55,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="./js/main.js"></script>
 </body>
 </html>
