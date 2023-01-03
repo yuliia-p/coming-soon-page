@@ -56,17 +56,43 @@ input {
 
 button {
   border: none;
-  background:
-    url("../images/icon-arrow.svg"),
-    linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  background: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   position: relative;
-  top: -48px;
+  top: -50px;
   left: 140px;
-  padding: 1.5rem 2rem;
+  padding: 0.85rem 1.8rem;
   border-radius: 25px;
+  box-shadow: 0 2px 20px 2px hsl(0deg, 80%, 86%);
+}
+
+.text-error {
+  color: var(--red) !important;
+  margin: 0;
+  margin-top: 0 !important;
+  margin-left: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.text-success {
+  color: #44d838 !important;
+  margin: 0;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  display: block;
+}
+
+.icon-error {
+  position: absolute;
+  right: 70px;
+  bottom: 170px;
+  width: 7%;
+  display: none;
 }
 
 @media screen and (min-width: 756px) {
