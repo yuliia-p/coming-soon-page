@@ -6,17 +6,15 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
   href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Josefin+Sans:wght@300;400;600&family=Montserrat:wght@200;400&display=swap"
   rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding-top: 2rem; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -26,11 +24,11 @@
       <img src="./images/logo.svg" alt="">
     </div>
     <div class="row flex">
-      <div class="column-40 img-container">
+      <div style="height: max-content" class="column-40 img-container">
         <img class="hero-mobile" src="./images/hero-mobile.jpg" alt="">
         <img class="hero-desktop" src="./images/hero-desktop.jpg" alt="">
       </div>
-      <div class="column-60 text-content">
+      <div style="height: max-content" class="column-60 text-content">
         <div class="logo hero-desktop">
           <img src="./images/logo.svg" alt="">
         </div>
@@ -39,7 +37,7 @@
           <p>Coming</p>
           <p>Soon</p>
         </div>
-        <p style="line-height: 1.8rem;">Hello fellow shoppers! We're currently building our new fashion store.
+        <p class="text">Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <form id="form" action="#">
           <p class="text-error"></p>
