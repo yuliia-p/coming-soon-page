@@ -14,9 +14,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktop.png)
-![](./images/mobile.png)
-![](./images/mobile-1.png)
+<p align="middle">
+<img src="./images/desktop.png" width="800">
+<img src="./images/mobile.png" width="300">
+<img src="./images/mobile-1.png" width="300">
+</p>
+
 
 ### Links
 
